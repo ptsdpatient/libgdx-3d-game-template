@@ -11,7 +11,7 @@ public class PlayGround extends Game {
 
     @Override
     public void create() {
-//        Gdx.graphics.setCursor( Gdx.graphics.newCursor(new Pixmap(Gdx.files.internal("cursor.png")), 0, 0));
+//      Gdx.graphics.setCursor( Gdx.graphics.newCursor(new Pixmap(Gdx.files.internal("cursor.png")), 0, 0));
         batch=new SpriteBatch();
         startScreen=new StartScreen(this);
         setScreen(startScreen);
